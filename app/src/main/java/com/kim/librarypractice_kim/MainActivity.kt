@@ -22,6 +22,6 @@ class MainActivity : AppCompatActivity() {
 
 //        인터넷에 있는 이미지(https:///...)를 이미지뷰에 바로 적용
 
-        Glide.with(this).load("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnlL0iNL2oyp_h4smXHHuLiE5o5hO4mv2uUw&usqp=CAU").into(lectureImg1)
+        Glide.with(this).load("http://th.bing.com/th/id/OIP.-ih4cTfg_FZwxEpw9ceRLwHaE9?w=278&h=186&c=7&r=0&o=5&pid=1.7").into(lectureImg1)
     }
 }
