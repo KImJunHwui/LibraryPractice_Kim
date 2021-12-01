@@ -23,5 +23,14 @@ class MainActivity : AppCompatActivity() {
 //        인터넷에 있는 이미지(https:///...)를 이미지뷰에 바로 적용
 
         Glide.with(this).load("http://th.bing.com/th/id/OIP.-ih4cTfg_FZwxEpw9ceRLwHaE9?w=278&h=186&c=7&r=0&o=5&pid=1.7").into(lectureImg1)
+
+//    전화걸기 버튼 누름 => 권한 확인 / 전화 연결
+
+        callBtn.setOnClickListener {
+
+//            라이브러리 활용 -> 전화 권한 확인 -> 전화연결
+        }
     }
+
+
 }
